@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.App {
+  background-color: #212121;
+  height: 100vh;
+  font-family: 'Permanent Marker', cursive;
+}
+
+nav {
+  background-color: #4FC3F7;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 2em;
+}
+
+ul {
+  margin-top: 2em;
+  width: 100%;
+}
+
+ul li {
+  text-align: center;
+  color: #ffffff;
+  margin: 5px 0;
+}
+
+ul > li h3 {
+  display: inline-block;
+}
+
+ul > li button {
+  margin-left: 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: #ffffff;
+  transition: all .3s linear;
+}
+
+ul > li button:hover {
+  background-color: #dddddd;
+}
+
+.problem {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.description, .code-editor {
+  width: 50%;
+  height: 100vh;
+}
+
+.description {
+  background-color: black;
+  color: #ffffff;
+  padding: 1em;
+}
+
+.description h3 {
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.code-editor {
+  background-color: brown;
+}
