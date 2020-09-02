@@ -26,7 +26,7 @@ function App() {
         <Route exact path='/'>
           <>
             <nav>
-              Codewars
+              Codewars (AWS amplify TEST)
             </nav>
             <ul>
               {
